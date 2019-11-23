@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7795BDFC2389285B00A22D4B /* palindromlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7795BDFA2389285B00A22D4B /* palindromlib.cpp */; };
+		7795BDFF238930D200A22D4B /* strlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7795BDFD238930D200A22D4B /* strlib.cpp */; };
+		7795BE072389334100A22D4B /* Palindrome_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7795BE062389334100A22D4B /* Palindrome_Tests.m */; };
+		7795BE0C2389338B00A22D4B /* palindromlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7795BDFA2389285B00A22D4B /* palindromlib.cpp */; };
+		779CA3CD23762B7900747567 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 779CA3CC23762B7900747567 /* main.cpp */; };
+		779CA3D523764CAE00747567 /* file.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 779CA3D323764B5100747567 /* file.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		779CA3C723762B7900747567 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				779CA3D523764CAE00747567 /* file.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7795BDFA2389285B00A22D4B /* palindromlib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palindromlib.cpp; sourceTree = "<group>"; };
+		7795BDFB2389285B00A22D4B /* palindromlib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = palindromlib.hpp; sourceTree = "<group>"; };
+		7795BDFD238930D200A22D4B /* strlib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = strlib.cpp; sourceTree = "<group>"; };
+		7795BDFE238930D200A22D4B /* strlib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = strlib.hpp; sourceTree = "<group>"; };
+		7795BE042389334100A22D4B /* Palindrome Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palindrome Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7795BE062389334100A22D4B /* Palindrome_Tests.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = Palindrome_Tests.m; sourceTree = "<group>"; };
+		7795BE082389334100A22D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779CA3C923762B7900747567 /* Palindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Palindrome; sourceTree = BUILT_PRODUCTS_DIR; };
+		779CA3CC23762B7900747567 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		779CA3D323764B5100747567 /* file.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = file.txt; sourceTree = "<group>"; };
+		779CA3D623764D1800747567 /* inbox.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = inbox.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7795BE012389334100A22D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779CA3C623762B7900747567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7795BDF82389284500A22D4B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7795BDFB2389285B00A22D4B /* palindromlib.hpp */,
+				7795BDFE238930D200A22D4B /* strlib.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7795BDF92389284C00A22D4B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7795BDFA2389285B00A22D4B /* palindromlib.cpp */,
+				7795BDFD238930D200A22D4B /* strlib.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7795BE052389334100A22D4B /* Palindrome Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7795BE062389334100A22D4B /* Palindrome_Tests.m */,
+				7795BE082389334100A22D4B /* Info.plist */,
+			);
+			path = "Palindrome Tests";
+			sourceTree = "<group>";
+		};
+		779CA3C023762B7900747567 = {
+			isa = PBXGroup;
+			children = (
+				779CA3CB23762B7900747567 /* Palindrome */,
+				7795BE052389334100A22D4B /* Palindrome Tests */,
+				779CA3CA23762B7900747567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		779CA3CA23762B7900747567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				779CA3C923762B7900747567 /* Palindrome */,
+				7795BE042389334100A22D4B /* Palindrome Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		779CA3CB23762B7900747567 /* Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				7795BDF92389284C00A22D4B /* src */,
+				7795BDF82389284500A22D4B /* include */,
+				779CA3D423764C8A00747567 /* resources */,
+				779CA3CC23762B7900747567 /* main.cpp */,
+			);
+			path = Palindrome;
+			sourceTree = "<group>";
+		};
+		779CA3D423764C8A00747567 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				779CA3D323764B5100747567 /* file.txt */,
+				779CA3D623764D1800747567 /* inbox.txt */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7795BE032389334100A22D4B /* Palindrome Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7795BE092389334100A22D4B /* Build configuration list for PBXNativeTarget "Palindrome Tests" */;
+			buildPhases = (
+				7795BE002389334100A22D4B /* Sources */,
+				7795BE012389334100A22D4B /* Frameworks */,
+				7795BE022389334100A22D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Palindrome Tests";
+			productName = "Palindrome Tests";
+			productReference = 7795BE042389334100A22D4B /* Palindrome Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		779CA3C823762B7900747567 /* Palindrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779CA3D023762B7900747567 /* Build configuration list for PBXNativeTarget "Palindrome" */;
+			buildPhases = (
+				779CA3C523762B7900747567 /* Sources */,
+				779CA3C623762B7900747567 /* Frameworks */,
+				779CA3C723762B7900747567 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Palindrome;
+			productName = "Dynamic Array";
+			productReference = 779CA3C923762B7900747567 /* Palindrome */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		779CA3C123762B7900747567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Eduard Dzhumagaliev";
+				TargetAttributes = {
+					7795BE032389334100A22D4B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					779CA3C823762B7900747567 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 779CA3C423762B7900747567 /* Build configuration list for PBXProject "Palindrome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 779CA3C023762B7900747567;
+			productRefGroup = 779CA3CA23762B7900747567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				779CA3C823762B7900747567 /* Palindrome */,
+				7795BE032389334100A22D4B /* Palindrome Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7795BE022389334100A22D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7795BE002389334100A22D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7795BE0C2389338B00A22D4B /* palindromlib.cpp in Sources */,
+				7795BE072389334100A22D4B /* Palindrome_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779CA3C523762B7900747567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7795BDFF238930D200A22D4B /* strlib.cpp in Sources */,
+				7795BDFC2389285B00A22D4B /* palindromlib.cpp in Sources */,
+				779CA3CD23762B7900747567 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7795BE0A2389334100A22D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = "Palindrome Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terriblegoodday.Palindrome-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7795BE0B2389334100A22D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = "Palindrome Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terriblegoodday.Palindrome-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		779CA3CE23762B7900747567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		779CA3CF23762B7900747567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		779CA3D123762B7900747567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		779CA3D223762B7900747567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7795BE092389334100A22D4B /* Build configuration list for PBXNativeTarget "Palindrome Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7795BE0A2389334100A22D4B /* Debug */,
+				7795BE0B2389334100A22D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779CA3C423762B7900747567 /* Build configuration list for PBXProject "Palindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779CA3CE23762B7900747567 /* Debug */,
+				779CA3CF23762B7900747567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779CA3D023762B7900747567 /* Build configuration list for PBXNativeTarget "Palindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779CA3D123762B7900747567 /* Debug */,
+				779CA3D223762B7900747567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 779CA3C123762B7900747567 /* Project object */;
+}
