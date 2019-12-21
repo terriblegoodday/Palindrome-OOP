@@ -26,7 +26,6 @@ int main(int argc, const char * argv[]) {
     }
     
     std::string inputString;
-    ;
     
     if (palindrome::isPalindrome(inputString)) {
         std::cout << inputString << std::endl;
