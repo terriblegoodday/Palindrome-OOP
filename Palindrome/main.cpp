@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
     }
     
     string inputString;
-    getline(file, inputString);
+    file >> inputString;
     
     if (palindrome::isPalindrome(inputString)) {
         cout << "String is a palindrome" << endl;
@@ -32,6 +32,7 @@ int main(int argc, const char * argv[]) {
         cout << strlib::inverse(inputString) << endl;
     }
     
+    file.close();
     
     return 0;
 }
