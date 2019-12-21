@@ -8,12 +8,8 @@
 
 #include <iostream>
 #include <fstream>
-#include <cstring>
-#include <stdexcept>
 #include "palindromlib.hpp"
 #include "strlib.hpp"
-
-
 
 using namespace std;
 int main(int argc, const char * argv[]) {
@@ -22,18 +18,21 @@ int main(int argc, const char * argv[]) {
     file.open("file.txt", ios::in);
     
     if (file.fail()) {
-        throw std::invalid_argument( "Failed to read file" );
+        throw invalid_argument( "Failed to read file" );
     }
     
-    std::string inputString;
-    ;
+    string inputString;
+    file >> inputString;
     
     if (palindrome::isPalindrome(inputString)) {
-        std::cout << inputString << std::endl;
+        cout << "String is a palindrome" << endl;
+        cout << inputString << endl;
     } else {
-        std::cout << strlib::inverse(inputString) << std::endl;
+        cout << "String isn't a palindrome" << endl;
+        cout << strlib::inverse(inputString) << endl;
     }
     
+    file.close();
     
     return 0;
 }
